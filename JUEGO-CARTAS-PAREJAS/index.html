@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/css.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+    <title>MEMORAMA</title>
+</head>
+
+
+<body  style="background-color: black;">
+    <div class="container">
+        <div class="row">
+            
+            <div id="cabecera" class="col-xs-12 col-sm-12 col-md-12">MEMORAMA</div>
+        </div><!--row1-->
+
+        <div class="row">
+            <div id="cajaDatosF" class="col-xs-12 col-sm-12 col-md-12">
+                <h2 class="nombreMio">Rodrigo H.González Domínguez 2ºDAW</h2>
+                <h2 style="color: #E5E5E5;">Movimientos = 50/<span class="nMovimientos"></span></h2>
+                <h2 style="color: #E5E5E5;">Récord: <span class="record"></span></h2>
+            </div>
+        </div><!--row2-->
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12" id="cajaBoton">
+                <button type="button" id="start" class="btn btn-success btn-lg btn-block">Empezar a jugar</button>
+                <button type="button" id="resetero" class="btn btn-danger btn-lg btn-block">Resetear <i class="glyphicon glyphicon-repeat"></i></button>
+            </div>
+        </div><!--row3-->
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12" id="tablero"><!--TABLERO-->
+
+                <table id="tabla">
+                    <tr>
+                      <td id="0" class="carta"  data-valor="valor">?</td>
+                      <td id="1" class="carta"  data-valor="valor">?</td>
+                      <td id="2" class="carta"  data-valor="valor">?</td>
+                      <td id="3" class="carta"  data-valor="valor">?</td>
+                      <td id="4" class="carta"  data-valor="valor">?</td>
+                      <td id="5" class="carta"  data-valor="valor">?</td>
+                    </tr>
+                    <tr>
+                      <td id="6" class="carta"  data-valor="valor">?</td>
+                      <td id="7" class="carta"  data-valor="valor">?</td>
+                      <td id="8" class="carta"  data-valor="valor">?</td>
+                      <td id="9" class="carta"  data-valor="valor">?</td>
+                      <td id="10" class="carta"  data-valor="valor">?</td>
+                      <td id="11" class="carta"  data-valor="valor">?</td>
+                    </tr>
+                    <tr>
+                      <td id="12" class="carta"  data-valor="valor">?</td>
+                      <td id="13" class="carta"  data-valor="valor">?</td>
+                      <td id="14" class="carta"  data-valor="valor">?</td>
+                      <td id="15" class="carta"  data-valor="valor">?</td>
+                      <td id="16" class="carta"  data-valor="valor">?</td>
+                      <td id="17" class="carta"  data-valor="valor">?</td>
+                    </tr>
+                    <tr>
+                      <td id="18" class="carta"  data-valor="valor">?</td>
+                      <td id="19" class="carta"  data-valor="valor">?</td>
+                      <td id="20" class="carta"  data-valor="valor">?</td>
+                      <td id="21" class="carta"  data-valor="valor">?</td>
+                      <td id="22" class="carta"  data-valor="valor">?</td>
+                      <td id="23" class="carta"  data-valor="valor">?</td>
+                    </tr>
+                    </table>
+
+            </div>
+        </div><!--row 4-->
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12" style="background-color: black;"><br></div>
+            <div id="cabecera" class="col-xs-12 col-sm-12 col-md-12"></div>
+        </div><!--row 5-->
+        
+    </div><!--container-->
+
+    <script type="text/javascript" src="js/1.js"></script>
+    
+</body>
+</html>

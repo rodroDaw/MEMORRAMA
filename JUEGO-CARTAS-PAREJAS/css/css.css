@@ -1,0 +1,79 @@
+#tablero{
+   
+    background: rgb(240,183,161); 
+    background: -moz-linear-gradient(top,  rgba(240,183,161,1) 0%, rgba(117,34,1,1) 19%, rgba(140,51,16,1) 50%, rgba(191,110,78,1) 100%); 
+    background: -webkit-linear-gradient(top,  rgba(240,183,161,1) 0%,rgba(117,34,1,1) 19%,rgba(140,51,16,1) 50%,rgba(191,110,78,1) 100%); 
+    background: linear-gradient(to bottom,  rgba(240,183,161,1) 0%,rgba(117,34,1,1) 19%,rgba(140,51,16,1) 50%,rgba(191,110,78,1) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b7a1', endColorstr='#bf6e4e',GradientType=0 ); 
+
+    border: 1px white solid;
+    padding: 50px;
+
+    display: none;
+}
+#cabecera{
+    
+    background: rgb(206,219,233);
+    background: -moz-linear-gradient(top,  rgba(206,219,233,1) 0%, rgba(170,197,222,1) 17%, rgba(97,153,199,1) 31%, rgba(58,132,195,1) 51%, rgba(65,154,214,1) 59%, rgba(75,184,240,1) 71%, rgba(58,139,194,1) 84%, rgba(38,85,139,1) 100%); 
+    background: -webkit-linear-gradient(top,  rgba(206,219,233,1) 0%,rgba(170,197,222,1) 17%,rgba(97,153,199,1) 31%,rgba(58,132,195,1) 51%,rgba(65,154,214,1) 59%,rgba(75,184,240,1) 71%,rgba(58,139,194,1) 84%,rgba(38,85,139,1) 100%); 
+    background: linear-gradient(to bottom,  rgba(206,219,233,1) 0%,rgba(170,197,222,1) 17%,rgba(97,153,199,1) 31%,rgba(58,132,195,1) 51%,rgba(65,154,214,1) 59%,rgba(75,184,240,1) 71%,rgba(58,139,194,1) 84%,rgba(38,85,139,1) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedbe9', endColorstr='#26558b',GradientType=0 ); /* IE6-9 */
+
+
+    border: white 2px solid; 
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+
+    color: white;
+    text-shadow: 0 1px 0px #000000, 1px 0 0px #7A7A7A, 1px 2px 1px #000000, 2px 1px 1px #7A7A7A, 2px 3px 2px #000000, 3px 2px 2px #7A7A7A, 3px 4px 2px #000000, 4px 3px 3px #7A7A7A, 4px 5px 3px #000000, 5px 4px 2px #7A7A7A, 5px 6px 2px #000000, 6px 5px 2px #7A7A7A, 6px 7px 1px #000000, 7px 6px 1px #7A7A7A, 7px 8px 0px #000000, 8px 7px 0px #7A7A7A;
+}
+.nombreMio{
+    text-align: right;
+    color: darkgrey;
+    font-size: medium;
+}
+.findelJuego{
+    position: inherit;
+    text-align: center;
+    font-size: 170px;
+    color: red;
+    text-shadow: 0px 5px 10px #ff0000, 2px -4px 0px #c50000;
+}
+.finWinner{
+    position: inherit;
+    text-align: center;
+    font-size: 100px;
+    color: green;
+}
+#cajaBoton{
+    padding: 50px;
+}
+#resetero{
+    display: none;
+}
+#cajaDatosF{
+    display: none;
+}
+#start{
+    display: block;
+}
+#tabla{
+    margin: auto;
+    width: 1000px;
+    height: 500px;
+    text-align: center;
+}
+td{
+    border-radius: 25px;
+    background-color: black;
+    opacity: 0.4;
+    font-size: 40px;
+}
+.cartaCara{
+    background-color: white;
+
+}
+td{
+    font-family: monospace;
+}
